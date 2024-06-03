@@ -28,5 +28,10 @@ which aihubshell  # /usr/bin/aihubshell 또는 /usr/local/bin/aihubshell
 aihubshell -help
 aihubshell -mode l | grep 말뭉치
 aihubshell -mode l -datasetkey 625
+```
+
+아래 커맨드를 사용해서 데이터를 다운받기 전에 데이터 사용 신청은 AI 허브 사이트에서 해야 한다. 보통 자동승인된다.
+
+```
 aihubshell -mode d -datasetkey 625 -filekey 62288,62289
 ```
